@@ -1,0 +1,9 @@
+name: 'Dioxus Bundle Action'
+description: 'Creates Dioxus bundles for specified targets'
+inputs:
+  target:
+    description: 'Target platform for the bundle (mac, windows, linux)'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
